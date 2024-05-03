@@ -21,8 +21,8 @@ private:
     const std::string output_file = "output.png";
     ReadCSV rcsv = ReadCSV(color_map_file);
     // device resolution variables
-    const int resolution_x = 3840*2;
-    const int resolution_y = 2160*2;
+    const int resolution_x = 3840*1;
+    const int resolution_y = 2160*1;
     const double aspect_ratio = resolution_x / static_cast<double>(resolution_y);
     std::vector<unsigned char> image;
 
